@@ -19,7 +19,7 @@ h6{
 /* navigation */
 nav{
     position: fixed;
-    width: 100%;
+    width: 83%;
     background-color: #b5b6be;
     display: flex;
     flex-direction: row;
