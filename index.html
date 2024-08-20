@@ -6,7 +6,10 @@
     <title>Himalaya Darshan College</title>
 
     <script src="https://kit.fontawesome.com/474e6ab8ed.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -15,15 +18,16 @@
         <img src="images/logo.png" alt="">
         <div class="navigation">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Contact</a></li>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="actives" href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
         </div>
     </nav>
-
 
     <!-- home -->
      <section id="home">
@@ -58,12 +62,12 @@
                 </div>
                 <div class="sep-box">
                     <i class ="fas fa-award"></i>
-                    <h3>certificates</h3>
+                    <h3>Certificates</h3>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,</p>
                 </div>
             </div>
      </section>
-<!-- courses -->
+    <!-- courses -->
      <section id="course">
         <h1>Our popular courses</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus </p>
@@ -72,7 +76,7 @@
             <div class="courses">
                 <img src="images/bhm.jpg" alt="">
                 <div class="details">
-                    <h6>Bachelor in hotel management</h6>
+                    <h6>Bachelor in hotel management(BHM)</h6>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -82,15 +86,13 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
-                </div>
+                
             </div>
 
             <div class="courses">
                 <img src="images/bim.jpg" alt="">
                 <div class="details">
-                    <h6>Bachelor in Information management</h6>
+                    <h6>Bachelor in Information management (BIM)</h6>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -100,15 +102,13 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
-                </div>
+                
             </div>
 
             <div class="courses">
                 <img src="images/bca.jpg" alt="">
                 <div class="details">
-                    <h6>Bachelor in computer application</h6>
+                    <h6>Bachelor in computer application (BCA)</h6>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -118,15 +118,13 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
-                </div>
+                
             </div>
 
             <div class="courses">
                 <img src="images/csit.jpg" alt="">
                 <div class="details">
-                    <h6>Bachelor of Science in Computer Science and Information Technology</h6>
+                    <h6>Bachelor of Science in Computer Science and Information Technology (CSIT)</h6>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -136,9 +134,7 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
-                </div>
+               
             </div>
 
             <div class="courses">
@@ -154,15 +150,13 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
-                </div>
+               
             </div>
 
             <div class="courses">
                 <img src="images/bhm2.jpg" alt="">
                 <div class="details">
-                    <h6>Bachelor in hotel management</h6>
+                    <h6>Bachelor in hotel managemen (BHM)</h6>
                     <div class="star">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -172,11 +166,154 @@
                         <span>(256)</span>
                     </div>
                 </div>
-                <div class="credit-hrs">
-                    128hrs
+
+            </div>
+        </div>
+     </section>
+
+     <!-- registration -->
+
+     <section id="registration">
+        <div class="reminder">
+            <p>Get perfect classes with full facilities</p>
+            <h1>Register To Get It</h1>
+            <div class="time">
+                <div class="date">
+                    18 <br> days
+                </div>
+
+                <div class="date">
+                    5 <br> hourd]]
+                </div>
+
+                <div class="date">
+                    23 <br> minutes
+                </div>
+
+                <div class="date">
+                    58 <br> seconds
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="form">
+            <h3> Create Free Account NOW!</h3>
+            <input type="text" placeholder="name" name="" id="">
+            <input type="text" placeholder="Email Address" name="" id="">
+            <input type="text" placeholder="Phone number" name="" id="">
+            <div class="btn">
+                <a class="yellow" href="#">Submit Form</a> 
+                
+            </div> 
+        </div>
+     </section>
+
+     <!-- profile -->
+
+     <section id="experts">
+        <h1>Community experts</h1>
+        <p> we have best ecperts to light up your Studies</p>
+        <div class="expert-box">
+
+            <div class="profile">
+                <img src="images/kushal.png" alt="">
+                <h6> Kushal Niraula</h6>
+                <p>IT and algorith expert</p>
+                <div class="pro-links">
+                        <i class="fab fa-facebook-f "></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+
+            
+            <div class="profile">
+                <img src="images/sumit.png" alt="">
+                <h6> Sumit shah</h6>
+                <p>HOD of IT department</p>
+                <div class="pro-links">
+                        <i class="fab fa-facebook-f "></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+
+            
+            <div class="profile">
+                <img src="images/hm.png" alt="">
+                <h6> Anju  Mam</h6>
+                <p>HOD of Hotel management</p>
+                <div class="pro-links">
+                        <i class="fab fa-facebook-f "></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+
+            
+            <div class="profile">
+                <img src="images/bhupal.png" alt="">
+                <h6> Bhupal sir</h6>
+                <p>HOD of HDC</p>
+                <div class="pro-links">
+                        <i class="fab fa-facebook-f "></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
                 </div>
             </div>
         </div>
      </section>
+
+     <footer>
+        <div class="footer-col">
+            <h3>Top courses</h3>
+            <li>Bachelor of Information Management (BIM)</li>
+            <li>Bachelor of Hotel Management (BHM)</li>
+            <li>Bachelor of Computer Application (BCA)</li>
+            <li> Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)</li>
+            <li> Bachelor of Business Studies (BBS)</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>NewsLetter</h3>
+            <p>You can trust us. we only send offers and discount related Information</p>
+            <div class="subscribe">
+                <input type="text" placeholder="YOUR EMAIL ADDRESS">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2019, All rights reserved. Himalaya Darshan College.</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f "></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+        </div>
+        </div>
+     </footer>
+
+     <!-- script -->
+
+     <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+             
+     </script>
+
 </body>
 </html>
